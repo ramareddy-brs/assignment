@@ -1,0 +1,128 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  padding-top: 15px;
+}
+ul {
+  list-style: none;
+  text-align: center;
+  font-weight: bold;
+}
+ul li {
+  display: inline;
+  padding: 20px;
+}
+nav {
+  background-color: lightcoral;
+  padding: 0.1px;
+}
+img {
+  vertical-align: middle;
+}
+.loreum-container{
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+}
+.content-container {
+  background-image: linear-gradient(-225deg, #FFE29F 0%, #FFA99F 48%, #FF719A 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.image {
+  height: 480px;
+  width: 400px;
+}
+h1 {
+  letter-spacing: 0.5rem;
+}
+p{
+  font-size: 13px;
+  width: 69%;
+}
+button {
+  height: 35px;
+  width: 140px;
+  background-color: lightcoral;
+  border: none;
+  margin-top: 10px;
+  color: white;
+  margin-right: 175px;
+}
+.bottom-container {
+  background-image: linear-gradient(120deg, #fccb90 0%, #d57eeb 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  padding: 70px;
+}
+.img-icon1 {
+  width: 180px;
+  height: 130px;
+  margin: 6px;
+}
+.bottom-loreum {
+  background-color: #FF719A;
+  margin: 10px;
+  padding: 5px;
+}
+.heading {
+  font-size: 30px;
+  letter-spacing: 5px;
+  padding-left: 23px;
+}
+.paragraph {
+  font-size: 12px;
+  padding-left: 23px;
+}
+.arrow-image {
+  width: 20px;
+  padding-left: 10px;
+}
+@media only screen and (max-width: 600px) {
+  ul li {
+    padding: 10px;
+  }
+
+  p {
+    width: 90%;
+  }
+  .loreum-container{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+  .image {
+    height: 310px;
+    width: 310px;
+  }
+  .bottom-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/* Media queries for medium screens */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  ul li {
+    padding: 15px;
+  }
+
+  p {
+    width: 80%;
+  }
+}
+
+/* Media queries for large screens */
+@media only screen and (min-width: 1025px) {
+  ul li {
+    padding: 20px;
+  }
+}
