@@ -88,7 +88,7 @@ button {
 }
 @media only screen and (max-width: 600px) {
   ul li {
-    padding: 10px;
+    display: none;
   }
 
   p {
@@ -101,22 +101,40 @@ button {
   }
   .image {
     height: 310px;
-    width: 310px;
+    width: 315px;
   }
   .bottom-container {
     display: flex;
     flex-direction: column;
   }
+  .menu-image {
+    margin-right: 250px;
+  }
 }
 
 /* Media queries for medium screens */
-@media only screen and (min-width: 601px) and (max-width: 1024px) {
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
   ul li {
-    padding: 15px;
+    display: none;
   }
 
   p {
     width: 80%;
+  }
+  .loreum-container{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+  .image {
+    height: 500px;
+    width: 630px;
+  }
+  button{
+    margin-left: 150px;
+  }
+  .menu-image {
+    margin-right: 500px;
   }
 }
 
